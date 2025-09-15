@@ -1,0 +1,213 @@
+Project1 Report 
+
+Name: Sakshi Pandey 
+ Course:  Bsc AI/ML  Mentor 
+  
+
+Project Title: 
+
+House Price Prediction using Machine Learning Algorithms 
+
+ 
+
+1. Project Description 
+
+House price prediction is a critical problem in the real estate industry, where accurate pricing models help buyers, sellers, and financial institutions make informed decisions. This project develops a predictive model that estimates house prices based on features such as area, location, building type, condition, and the number of rooms. Machine learning algorithms are applied to identify the most influential factors and provide reliable price predictions. 
+
+2. Learning Objectives 
+
+Understand and apply regression modeling techniques. 
+
+Perform exploratory data analysis (EDA) and feature engineering. 
+
+Compare multiple regression models and evaluate performance metrics. 
+
+ 
+
+3. Timeline 
+
+Start Date: Sept 7, 2025 
+
+Deadline: Sept 14, 2025 
+
+4. Algorithm Used 
+
+Multiple Linear Regression (Baseline): Captures linear relationships between features and house prices. 
+
+Support Vector Regression (SVR): Captures complex relationships by fitting data within a defined margin. 
+
+Random Forest Regressor: An ensemble approach that averages predictions from multiple decision trees for better generalization. 
+
+5. Tools & Libraries 
+
+Python 
+
+Pandas, NumPy → Data manipulation 
+
+Matplotlib, Seaborn → Data visualization 
+
+Scikit-learn → Machine learning models, preprocessing, and evaluation 
+
+6. Dataset Description 
+
+Source: HousePricePrediction.xlsx (Kaggle-style dataset) 
+
+Size: 13 features, ~1,000+ records 
+
+Target Variable: SalePrice (house price in USD) 
+
+Key Features: 
+
+LotArea → Lot size (sq. ft.) 
+
+MSZoning → Zoning classification 
+
+BldgType → Type of dwelling 
+
+OverallCond → House condition rating 
+
+YearBuilt → Construction year 
+
+TotalBsmtSF → Basement size 
+
+Exterior1st → Exterior covering type 
+
+7. Methodology 
+
+Data Preprocessing: 
+
+Dropped irrelevant column: Id 
+
+Handled missing values (SalePrice filled with mean, others dropped) 
+
+Applied OneHotEncoder for categorical variables (MSZoning, LotConfig, BldgType, Exterior1st) 
+
+Exploratory Data Analysis (EDA): 
+
+Heatmap for correlation between numerical features 
+
+Barplots for categorical feature distributions 
+
+Unique category counts visualized 
+
+Model Training: 
+
+Split dataset: 80% training, 20% validation 
+
+Models tested: SVR, Random Forest, Multiple Linear Regression 
+
+Evaluation Metrics: 
+
+Mean Absolute Percentage Error (MAPE) 
+
+Root Mean Squared Error (RMSE) 
+
+R² Score 
+
+8. Results 
+
+Model Performance (MAPE): 
+
+SVR → 0.187 
+
+Random Forest → 0.193 
+
+Linear Regression → 0.187 
+
+Additional Metrics: 
+
+RMSE: 41,138.55 
+
+R² Score: 0.374 
+
+Feature Importance (Linear Regression coefficients): 
+
+Most influential: Exterior1st_Stone, BldgType_1Fam, BldgType_2fmCon, OverallCond 
+
+Least influential: LotArea, TotalBsmtSF 
+
+Visualization Outputs: 
+
+Correlation heatmap 
+
+Feature distribution barplots 
+
+Feature importance chart 
+
+Exploratory Data Analysis 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+9. Questions Answered 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+10. Challenges & Improvements 
+
+Challenges: 
+
+Missing and categorical data handling 
+
+Relatively low R² score indicating limited variance explained 
+
+Improvements: 
+
+Apply ensemble methods (XGBoost, Gradient Boosting) 
+
+Try polynomial regression for capturing non-linearity 
+
+Perform feature scaling & outlier detection 
+
+Incorporate geospatial features (precise location) for better accuracy 
+
+ 
+
+11. References 
+
+Dataset: HousePricePrediction.xlsx 
+
+Scikit-learn Documentation: https://scikit-learn.org/ 
+
+Kaggle House Prices Competition: https://www.kaggle.com/c/house-prices-advanced-regression-techniques 
+
+ 
+
+12. GitHub Link 
+
+https://github.com/pandeysakshi8989/Sakshi_ML_Projects/tree/Project1_House_Price_Prediction 
+
+ 
+
+ 
+
+ 
+
+ 
