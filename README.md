@@ -9,11 +9,6 @@ EASY LEVEL PROJECTS
 Project 1: House Price Prediction 
 
 Deadline: September 14, 2025  
-
-( CAT –1 exam on 8 /9/25 and 9/9/25, so project starts on 10/9/25) 
-
-New Deadline: September 18, 2025 
-
  
 
 Description: Predict house prices based on features like area, location, and number of rooms. 
@@ -53,10 +48,6 @@ ADD 5 QUESTIONS FROM YOUR SIDE
 Project 2: SMS Spam Detection 
 
 Deadline: September 21,2025  
-
-(Going on IV from 17/9/25 to 22/9/25) 
-
-New Deadline: September 25, 2025  
 
  
 
